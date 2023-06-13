@@ -26,7 +26,8 @@ Creating a web scraper and crawler to extract various book details from amazon.c
 6. Increment the page_number each time.
 7. We keep crawling for 11 pages but this limit can be changed as well.
 8. Output the data into the required file format.
-9. Since amazon restricts people from crawling, change the user agent to the googlebot user agent so that you don't get restricted - Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/113.0.5672.127 Safari/537.36
+9. Since amazon restricts people from crawling, change the user agent in the settings.py file to the googlebot user agent so that you don't get restricted.
+10. Copy the user agent fromt the following site - https://explore.whatismybrowser.com/useragents/explore/software_name/googlebot/
 
 # Sample Output
 
